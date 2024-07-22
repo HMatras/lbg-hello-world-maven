@@ -14,8 +14,11 @@ public class App
         System.out.println(sayHelloToSomeone("Charlie"));
         System.out.println(sayHelloToSomeone("Zena"));
         System.out.println(sayGoodbye());
+        System.out.println(greetMaster("Hubert"));
     }
-
+    public static String greetMaster(String name) {
+        return "Hello Master + " + name
+    }
     public static String sayHello(){
         return "Hello World!";
     }
