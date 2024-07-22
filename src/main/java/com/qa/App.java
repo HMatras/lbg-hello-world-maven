@@ -15,9 +15,13 @@ public class App
         System.out.println(sayHelloToSomeone("Zena"));
         System.out.println(sayGoodbye());
         System.out.println(greetMaster("Hubert"));
+        System.out.println(greetEveryone("Akhil", "Dilpreet"));
     }
     public static String greetMaster(String name) {
-        return "Hello Master + " + name;
+        return "Hello Master " + name;
+    }
+    public static String greetEveryone(String name1, String name2) {
+        return "Hello " + name1 + " " + name2;
     }
     public static String sayHello(){
         return "Hello World!";
