@@ -17,7 +17,7 @@ public class App
         System.out.println(greetMaster("Hubert"));
     }
     public static String greetMaster(String name) {
-        return "Hello Master + " + name
+        return "Hello Master + " + name;
     }
     public static String sayHello(){
         return "Hello World!";
